@@ -1,0 +1,19 @@
+# Chặn thư mục ảo và cache
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Chặn file hệ thống
+.DS_Store
+Thumbs.db
+
+# QUAN TRỌNG: Chặn thư mục chứa video (Bảo mật dữ liệu user)
+uploads/
+
+# Chặn file thực thi nặng (Người dùng tự tải)
+ffmpeg.exe
+
+# Chặn các file script chạy tạm thời (Không chuyên nghiệp)
+chay_ngay_di.bat
+install_libs.py
